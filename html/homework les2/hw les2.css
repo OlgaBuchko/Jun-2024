@@ -1,0 +1,94 @@
+
+
+.flex {
+    display: flex;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.image100 {
+    width: 1cm;
+    height: 1cm
+}
+
+.image120 {
+    width: 15mm;
+    height: 15mm;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.center {
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+
+    border: 2px solid;
+    color: darkgray;;
+}
+
+.search {
+    color: gray;
+    height: 100%;
+}
+
+.searchRight {
+    border-right: darkgray 2px solid;
+    width: 80%;
+    justify-content: left;
+    align-items: center;
+
+}
+
+img {
+    margin: 0 5px;
+}
+
+.wiki {
+    flex-direction: column;
+
+
+}
+
+.j-c_center {
+    justify-content: center;
+    align-items: center;
+}
+
+.width40 {
+    width: 38%;
+}
+
+.a_head {
+    margin: 0 5px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.body_left{
+    width: 20%;
+    margin-left: 80px;
+}
+.amargin {
+    margin-left: 10px;
+}
+.space_beet{
+    justify-content: space-between;
+}
+.grey_button{
+    text-align: center;
+    width: 20%;
+    border-radius: 15%;
+    background-color: darkgray;
+}
