@@ -116,5 +116,18 @@ a{
     justify-content: end;
 }
 p{
-    margin: 5px ;
+    margin: 20px ;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.retreat{
+    margin: 20px 0 10px 30px;
+
+}
+h2{
+    margin-left: 10px;
+    border-bottom: 2px solid darkgray;
+}
+sub{
+    font-size: 15px;
 }
