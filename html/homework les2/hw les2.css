@@ -74,7 +74,7 @@ img {
 }
 a{
     text-decoration: none;
-    color: blue;
+   color: blue;
 }
 .body_left{
     width: 20%;
@@ -83,12 +83,38 @@ a{
 .amargin {
     margin-left: 10px;
 }
-.space_beet{
-    justify-content: space-between;
+.pmargin{
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
+
 .grey_button{
     text-align: center;
     width: 20%;
     border-radius: 15%;
     background-color: darkgray;
+}
+.border_bot{
+    border-bottom: 2px solid; border-color: darkgray;
+    padding:5px 0   ;
+}
+.between{
+    justify-content: space-between;
+}
+.body_top{
+    border-bottom: 2px solid darkgray;
+}
+.body_center{
+    width: 100%;
+    padding: 0 15px 5px;
+    flex-direction: column;
+}
+.text_end{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+p{
+    margin: 5px ;
 }
