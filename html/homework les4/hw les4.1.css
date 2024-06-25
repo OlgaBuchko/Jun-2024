@@ -1,0 +1,44 @@
+div{
+    width: 350px;
+    height: 350px;
+    background-color: #e7a07f;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+}
+.Rubik{
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+.Sedgwick{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+.Dancing{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight:  400;
+    font-style: normal;
+    font-size: 48px;
+}
+.Fjalla{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+.Indie{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
