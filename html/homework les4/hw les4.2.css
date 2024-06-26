@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#blue, #green, #pink {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue {
+    background-color: skyblue;
+}
+
+#green {
+    background-color: #79d579;
+}
+
+#pink {
+    background-color: lightpink;
+}
+h2{
+    font-size: 42px;
+}
+p{
+    font-size: 30px;
+    padding: 50px 50px 0 50px;
+}
+.top{
+    padding-bottom: 50px;
+}
+.bottom{
+    padding-top: 50px;
+}
+h1{
+    font-size:50px ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
