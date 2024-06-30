@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-image: url("img.jpg");
+
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    background-color: white;
+}
+header div{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div p{
+    line-height: 30px;
+}
+nav{
+    width: 70vw;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #757373;
+    font-size: 20px;
+    transition: 1.5s;
+}
+nav ul li a:hover{
+color: darkgreen;
+    font-weight: bolder;}
+    .active{
+        background-color: #627c62;
+        color: white;
+    }
+    .active:hover{
+        /*color: white;*/
+    }
+
+/*------------HOME---------------*/
+/*--------------------Section---------------*/
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    height: 30vh;
+}
+.home p{
+font-size: 20px;
+    word-spacing: 5px;
+}
+.home h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+}
+.home button{
+    border-radius: 5px;
+    transition: 1s;
+}
+.home button:hover{
+    transform: scale(1.1);
+    color: darkgreen;
+    border: 1px solid darkgreen;
+
+}
+
+/*---------------location___________*/
+
+.location{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 40px;
+}
+.location a img{
+    width: 500px;
+
+}
+.location a img{
+    transition:1.5s;
+}
+.location a img:hover{
+    border: 2px solid darkgreen;
+    transform: scale(1.5);
+
+}
+/*----------------CONTACT-----------------*/
+
+.contact{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+   margin-top: 20px;
+padding:  1vw 25vw;
+
+}
+.container-contact{
+    display: flex;
+    height: 65vh;
+    justify-content: center;
+}
+.photo img{
+    height: 100%;
+}
+.contact p{
+    font-size: 18px;
+    margin: 5px 10px;
+}
+.qr-text{
+    display: flex;
+    flex-direction: column;
+}
+.qr-text a{
+    text-decoration: none;
+    color: black;
+}
+
+.qr-text img{
+    height: 23vw;
+    width: 23vw;
+}
+.white{
+    color: white;
+}
