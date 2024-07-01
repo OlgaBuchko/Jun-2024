@@ -5,11 +5,13 @@
     margin: 0;
 }
 body{
-    background-image: url("img.jpg");
-
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+#home{
+    background-image: url("img.jpg");
+
 }
 
 header{
@@ -31,7 +33,7 @@ nav{
     width: 70vw;
 
 }
-ul{
+nav ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -87,7 +89,11 @@ font-size: 20px;
 }
 
 /*---------------location___________*/
+#location{
+    background-image: url("img.jpg");
 
+}
+/*-----------------location_section----------------- */
 .location{
     display: flex;
     height: 90vh;
@@ -110,7 +116,11 @@ font-size: 20px;
 
 }
 /*----------------CONTACT-----------------*/
+#contact{
+    background-image: url("img.jpg");
 
+}
+/*------------contact-section----------*/
 .contact{
     display: flex;
 flex-direction: column;
@@ -134,6 +144,7 @@ padding:  1vw 25vw;
 .qr-text{
     display: flex;
     flex-direction: column;
+    font-weight: 500;
 }
 .qr-text a{
     text-decoration: none;
@@ -143,7 +154,53 @@ padding:  1vw 25vw;
 .qr-text img{
     height: 23vw;
     width: 23vw;
+
 }
 .white{
     color: white;
 }
+/*----------------------service-------------------*/
+#service{
+    background-color: white;
+}
+/*----------service_section--------------------*/
+.service, .about{
+    display: flex;
+    justify-content: center;
+
+}
+.service_text, .about-text{
+    width: 60vw;
+
+}
+.service_text p,h2,h3, .about-text p,h2,h3{
+    margin: 30px 0;
+    text-align: justify;
+}
+.service_text h2, .about-text h2{
+    font-size: 50px;
+}
+.service_text h3, .about-text h3{
+    font-size: 40px;
+}
+.service_text, .about-text{
+    font-size: 20px;
+}
+.button{
+    text-align: center;
+    margin: 30px 0;
+}
+.button button{
+width: 70%;
+    height: 5vh;
+    border-radius: 15px ;
+    background-color: red;
+    border: none;
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
