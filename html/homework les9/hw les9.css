@@ -1,0 +1,52 @@
+body{
+    background-color: #38a59c;
+}
+.form{
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+}
+header {
+    text-align: center;
+    background-color:#bbf3e5;
+    font-size: 36px;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+input[type="text"],
+input[type="password"]{
+    width: 75%;
+    height: 40px;
+    margin:20px ;
+}
+.form>form{
+    text-align: center;
+}
+.checkbox div{
+    display: flex;justify-content: space-between;
+    width: 75%;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 18px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    background-color: #bbf3e5;
+}
+label{
+    color:darkgray;
+}
