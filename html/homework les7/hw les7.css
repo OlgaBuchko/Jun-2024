@@ -65,6 +65,7 @@ header {
     height: 52vh;
 }
 .video p {
+    font-family: KoHo;
     color: #000;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
@@ -79,6 +80,7 @@ footer{
     align-items: center;
 }
 footer section{
+    font-family: KoHo;
     height: 69vh;
     width: 30vw;
     background: rgba(83, 83, 83, 0.40);
