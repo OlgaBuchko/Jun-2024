@@ -1,0 +1,24 @@
+  .one ul li:nth-child(odd){
+    color: deeppink;
+  }
+  .two ul li:nth-child(even){
+      font-size: 22px;
+  }
+  .three ul li:nth-child(2n+4)::after{
+      content: "!!!!!";
+  }
+  .four ul li:last-child{
+      color: #c10ac1;
+  }
+  .fife ul li::first-letter{
+      font-size: 30px;
+      color: red;
+  }
+  li{
+      list-style: none;
+      line-height: 30px;
+  }
+li:before{
+    content: url("image/favicon-16x16.png");
+   margin:2px;
+}
