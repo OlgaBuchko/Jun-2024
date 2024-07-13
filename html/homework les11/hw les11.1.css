@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div img{
+    height: 25vh;
+}
+div{
+    display: flex;
+    align-items: center;
+    height: 25vh;
+    width: 75vh;
+}
+body div:first-child{
+    justify-content: space-between;
+}
+body div:nth-child(2){
+    justify-content: center;
+}
+body div:nth-child(3){
+  justify-content: space-between;
+}
+.left{
+    animation: right 3s linear infinite;
+}
+.right{
+    animation: left 3s linear infinite;
+}
+.center{
+    animation: center 3s linear infinite alternate;
+}
+@keyframes left {
+    from{
+rotate: 0;
+    }
+    to{
+rotate: 360deg;
+    }
+}
+@keyframes right {
+    from{
+        rotate: 0;
+    }
+    to{
+        rotate: -360deg;
+    }
+}
+@keyframes center {
+    from{
+        height: 25vh;
+    }
+    to{
+        height:20vh
+    }
+}
+@keyframes load {
+    0%{
+        width:0;
+    }
+    60%{
+        width: 40%;
+    }
+    80%{
+        width: 40%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+body div:nth-child(5){
+    width: 200px;
+    height: 20px;
+    background-color: grey;
+    border-radius:  15px;
+}
+.load{
+    background-color: orangered;
+    border-radius:15px  ;
+    width: 100%;
+    height: 100%;
+    animation: load  14s linear 1;
+    transform: scalex(100%);
+    display: flex;
+    justify-content: center;
+}
+@keyframes spanOne {
+    0%{
+        color: rgba(255, 255, 255, 0);
+    }
+    32%{
+        color: rgba(255, 255, 255, 0);
+    }
+    33%{
+        color: orangered;
+    }
+    100%{
+        color: orangered;
+    }
+}
+@keyframes spanTwo {
+0%{color: rgba(255, 255, 255, 0);
+}
+62%{
+    color: rgba(255, 255, 255, 0);
+}
+63%{
+    color: orangered;
+}
+100%{
+    color: orangered;
+}
+}
+@keyframes spanThree {
+    0%{
+        color: rgba(255, 255, 255, 0);
+    }
+    96%{ color: rgba(255, 255, 255, 0)}
+
+    97%{
+        color: orangered;
+    }
+}
+h2{
+    color: orangered;
+}
+.spanOne{
+    animation: spanOne 1s running infinite ;
+}
+.spanTwo{
+    animation: spanTwo 1s running infinite ;
+}
+.spanThree{
+    animation: spanThree 1s running infinite ;
+}
