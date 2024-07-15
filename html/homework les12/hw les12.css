@@ -1,0 +1,77 @@
+*{
+}
+table{
+    border: 2px outset #ddd8d8;
+    width: 600px;
+    border-spacing: 4px;
+}
+th{
+    outline: 2px solid #a6a5a5;
+    border-bottom: 1px solid #a6a5a5;
+    border-spacing: 0;
+}
+
+td{
+    border: 1px solid #ddd8d8;
+    font-weight: 500;
+}
+tr td:last-child{
+    width: 44%;
+}
+tr td:first-child{
+    width: 34%;
+}
+thead {
+    padding-top: 2px;
+}
+tbody tr:first-child td:nth-child(3){
+    background-color: #0000FF;
+}
+tbody tr:nth-child(2) td:nth-child(3){
+    background-color: #000000;
+}
+tbody tr:nth-child(3) td:nth-child(3){
+    background-color: #FF0000;
+}
+tbody tr:nth-child(4) td:nth-child(3){
+    background-color: #FFFFFF;
+}
+tbody tr:nth-child(5) td:nth-child(3){
+    background-color:#008000;
+}
+tbody tr:nth-child(6) td:nth-child(3){
+    background-color: #FFFF00;
+}
+tbody tr:nth-child(7) td:nth-child(3){
+    background-color: #FFA500;
+}
+tbody tr:nth-child(8) td:nth-child(3){
+    background-color: #EE82EE;
+}
+tbody tr:nth-child(9) td:nth-child(3){
+    background-color:silver;
+}
+tbody tr:nth-child(10) td:nth-child(3){
+    background-color: #FFD700;
+}
+tbody tr:nth-child(11) td:nth-child(3){
+    background-color: #808080;
+}
+tbody tr:nth-child(12) td:nth-child(3){
+    background-color: #FFC0CBFF;
+}
+tbody tr:nth-child(13) td:nth-child(3){
+    background-color: #FF00FF;
+}
+tbody tr:nth-child(14) td:nth-child(3){
+    background-color: #ADD8E6;
+}
+tbody tr:nth-child(15) td:nth-child(3){
+    background-color: #87CEEB;
+}
+tbody tr:nth-child(16) td:nth-child(3){
+    background-color: #00FFFF;
+}
+tbody tr:nth-child(17) td:nth-child(3){
+    background-color: #F0E68c;
+}
