@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-evenly;
+            height: 100vh;
+            align-items: center;
+        }
+        body>div{
+            width: 319px;
+            height: 492px;
+            background: rgba(217, 217, 217, 0.30);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid #554C4C;
+        }
+        body>div:nth-child(2){
+            border: 4px solid #65856E;
+        }
+        h3 {
+            color: #000;
+            font-size: 40px;
+            font-weight: 400;
+            margin: 0;
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+            margin: 0 32px;
+            padding: 0 20px;
+        }
+        body>div>div{
+            position: absolute;
+            top: -50px;
+            height: 100px;
+            width: 100px;
+            border: 4px solid #554C4C;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            z-index: 1;
+        }
+        body>div:nth-child(2)>div{
+            border: 4px solid #65856E;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <div>
+        <img src="media/icons8-ps-controller-50.png" alt="controller">
+    </div>
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    </p>
+</div>
+<div>
+    <div>
+        <img src="media/icons8-chess-50.png" alt="chess">
+    </div>
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    </p>
+</div>
+<div>
+    <div>
+        <img src="media/icons8-battle-50.png" alt="battle">
+    </div>
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    </p>
+</div>
+</body>
+</html>
