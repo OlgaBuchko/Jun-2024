@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+body{
+    background: #F7F6F4;
+    display: flex;
+    align-items: center;
+    flex-direction: column}
+.container{
+    width: 77vw;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 45px 0 ;
+}
+header>img{
+    position: absolute;
+    width: 178px;
+    height: 22px;
+    left: 0;
+}
+header>ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    position: relative;
+}
+.menu:hover ul{
+    display:inline-block;
+}
+li{
+    font-family: Taviraj;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+
+}
+.d-none{
+    display: none;
+    line-height: 23px;
+    padding: 15px 41px 23px 20px;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.70);
+    position: absolute;
+    list-style: none;
+    top:34px;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+nav{
+    padding-top:45px ;
+}
+nav>div:first-child{
+    width: 100%;
+    background-color: #F1DDC9;
+    display: flex;
+    align-items: center;
+}
+nav>div:first-child h2{
+    color: #333;
+    font-family: Taviraj;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 1.2px;
+}
+nav>div:first-child p{
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+nav>div:first-child div{
+    margin: 0 200px 0 56px;
+}
+nav button{
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    font-family: Taviraj;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: white;
+    border: none;
+    margin-top: 80px;
+}
+nav h3{
+    color: #333;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    margin-top: 80px;
+}
+.catalogue{
+    margin-top: 130px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.catalogue>div{
+    width: 255px;
+    height: 278px;
+    position: relative;
+    background: #FFF;
+    margin-bottom: 50px;
+}
+.catalogue>div>img{
+    position: absolute;
+    top:-40px;
+    left:25px;
+}
+.catalogue>div>p{
+    left: 25px;
+    bottom: 33px;
+    position: absolute;
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.news{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 160px;
+}
+.news>div{
+    width: 24vw;
+    display: flex;
+}
+.news span{
+    color: #777;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    margin-top: 15px;
+}
+.news h4{
+    color: #333;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.72px;
+    margin-right: 60px;
+}
