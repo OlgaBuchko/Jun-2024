@@ -1,0 +1,28 @@
+@media screen and (max-width:960px){
+    header{
+        height: 15vh;
+    }
+    section{
+        height: 55vh;
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100%;
+
+    }
+}
+.left>div:first-child{
+    width: 100%;
+    height: 25vh;
+}
+.cde{
+    width: 100%;
+    height: 15vh;
+}
+.cde div{
+    height: 15vh;
+}
+.right{
+    width: 100%;
+    height: 20vh;
+}
