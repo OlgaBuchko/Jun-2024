@@ -8,8 +8,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("image/fon.png");
-    background-size: cover;
+    background: url("image/fon.png")lightgray 50% / cover no-repeat;
+    /*background-size: cover;*/
 }
 .container{
 
@@ -41,7 +41,7 @@ h1{
 button{
     border-radius: 32px;
     color: #000;
-    width: 13vw;
+    width: 191px;
     font-size: 16px;
     font-weight: 700;
     line-height: 120%;
@@ -50,7 +50,6 @@ button{
     border: none;
 }
 .container>div{
-    width: 31vw;
     display: flex;
     justify-content: center;
     height: 64px;
@@ -65,7 +64,7 @@ button{
     margin-left: 16px;
 }
 .play{
-    width: 14vw;
+    width: 201px;
     display: flex;
     height: 64px;
     align-items: center;
