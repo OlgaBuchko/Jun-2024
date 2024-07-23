@@ -1,0 +1,23 @@
+@media screen and (min-width: 700px) and (max-width: 1260px){
+    body{
+        height: 100vh;
+    }
+    img{
+        width: 219px;
+        height: 164px;
+    }
+    .container{
+    margin: 32px 24px;
+        justify-content: center;
+    }
+    .top .bottom{
+        height: 263px;
+        width: 100%;
+    }
+    .top>div {
+        width: 219px;
+    }
+    .bottom>div{
+        width: 219px;
+    }
+}
