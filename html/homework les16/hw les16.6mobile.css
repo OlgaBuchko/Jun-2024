@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px){
+    body{
+        grid-template-rows: 17% 47% 17%;
+        grid-template-columns: 90%;
+        grid-template-areas: 'header'
+    'left'
+        'right';
+        align-content: center;
+    }
+}

@@ -1,0 +1,11 @@
+@media  screen and (max-width: 600px){
+    body{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 'header'
+    'top'
+    'left'
+    'right'
+    'footer';
+    }
+}
