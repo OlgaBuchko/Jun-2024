@@ -69,20 +69,20 @@ background-color: red ;
 
 /*rose*/
 
-.rose-section{
+.flowers_section{
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
 }
-.rose-section div{
+.flowers_section div{
     margin: 20px 0;
 }
-.rose-section .btn-primary{
+.flowers_section .btn-primary {
     background-color: #934c4c;
     border-color: #934c4c;
 }
-.rose-section .btn-primary:hover{
+.flowers_section .btn-primary:hover{
     background-color: red;
     border-color: red !important;
 }
@@ -90,4 +90,42 @@ background-color: red ;
 footer form button{
     background-color:#934c4c !important;
     border-color: #934c4c !important;
+}
+
+
+/*price*/
+
+.section_price{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 200px 40px;
+}
+.section_price>div{
+    text-align: center;
+}
+.price_image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid crimson;
+
+}
+.section_price>div a{
+text-decoration: none;
+    color: red;
+}
+.section_price h2{
+    color: red;
+    margin: 20px 0;
+}
+.price_image img{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.info iframe{
+    width: 90vw;
+    height: 70vh;
 }
